@@ -10,7 +10,7 @@ export function Navbar() {
   console.log("Navbar client", client);
   return (
     <div className="flex justify-between items-center mb-6">
-      <h1 className="text-2xl font-bold">Simple PRediction Market</h1>
+      <h1 className="text-2xl font-bold">Simple Prediction Market</h1>
       <div className="items-center flex gap-2">
         <ConnectButton
           client={client}
